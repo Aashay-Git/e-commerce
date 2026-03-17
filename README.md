@@ -151,9 +151,3 @@ The frontend starts on **`http://localhost:5173`** by default.
 - Protected admin routes on both frontend and backend
 - Password encryption using BCrypt
 - CORS configuration for frontend-backend communication
-
----
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
