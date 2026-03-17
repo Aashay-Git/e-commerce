@@ -1,29 +1,29 @@
-# 🛒 E-Commerce Platform
+# E-Commerce Platform
 
 A full-stack e-commerce application built with **Spring Boot** and **React**, featuring secure authentication, product management, shopping cart, wishlist, order processing, and a comprehensive admin dashboard.
 
 ---
 
-## ✨ Features
+## Features
 
 ### Customer
-- 🔐 **JWT Authentication** — Secure login & registration
-- 🛍️ **Product Browsing** — Browse by category, view product details
-- 🛒 **Shopping Cart** — Add, update, and remove items
-- ❤️ **Wishlist** — Save products for later
-- 📦 **Orders** — Place orders, track status, view order history
-- 💳 **Checkout** — Streamlined checkout flow
+- **JWT Authentication** — Secure login & registration
+- **Product Browsing** — Browse by category, view product details
+- **Shopping Cart** — Add, update, and remove items
+- **Wishlist** — Save products for later
+- **Orders** — Place orders, track status, view order history
+- **Checkout** — Streamlined checkout flow
 
 ### Admin
-- 📊 **Dashboard** — Overview and statistics
-- 📦 **Product Management** — Create, update, and delete products
-- 📂 **Category Management** — Organize products into categories
-- 🧾 **Order Management** — View all orders, update order status
-- 👥 **User Management** — View and manage registered users
+- **Dashboard** — Overview and statistics
+- **Product Management** — Create, update, and delete products
+- **Category Management** — Organize products into categories
+- **Order Management** — View all orders, update order status
+- **User Management** — View and manage registered users
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 | Layer       | Technology                                                                 |
 |-------------|---------------------------------------------------------------------------|
@@ -35,7 +35,7 @@ A full-stack e-commerce application built with **Spring Boot** and **React**, fe
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 e-commerce/
@@ -62,7 +62,7 @@ e-commerce/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -104,7 +104,7 @@ The frontend starts on **`http://localhost:5173`** by default.
 
 ---
 
-## 🔑 API Endpoints
+## API Endpoints
 
 ### Authentication
 | Method | Endpoint               | Description         |
@@ -130,7 +130,7 @@ The frontend starts on **`http://localhost:5173`** by default.
 
 ### Orders
 | Method | Endpoint               | Description              |
-|--------|------------------------|--------------------------|
+|--------|------------------------|--------------------------| 
 | GET    | `/api/orders`          | List user orders         |
 | GET    | `/api/orders/{id}`     | Get order details        |
 | POST   | `/api/orders`          | Place a new order        |
@@ -144,7 +144,7 @@ The frontend starts on **`http://localhost:5173`** by default.
 
 ---
 
-## 🛡️ Security
+## Security
 
 - **JWT-based authentication** with token expiration
 - **Role-based access control** — `USER` and `ADMIN` roles
@@ -154,6 +154,6 @@ The frontend starts on **`http://localhost:5173`** by default.
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
