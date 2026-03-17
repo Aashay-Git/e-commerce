@@ -1,7 +1,7 @@
 # E-Commerce Platform
 
 A full-stack e-commerce application developed using Spring Boot and React for a seamless user experience. It includes secure authentication, product management, shopping cart, wishlist, and order processing features.
-The system also provides a comprehensive admin dashboard for efficient management and control.
+The system also provides a comprehensive admin dashboard for efficient management and control.It matches the other e-commerce platform in features but excel in performance and security.
 
 ---
 
