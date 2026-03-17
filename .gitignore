@@ -1,0 +1,25 @@
+# ===== Backend (Spring Boot / Maven) =====
+e-commerce-backend/target/
+e-commerce-backend/*.log
+e-commerce-backend/build_log*.txt
+e-commerce-backend/run_log*.txt
+
+# ===== Frontend (React / Vite / Node) =====
+e-commerce-frontend/node_modules/
+e-commerce-frontend/dist/
+
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Env =====
+.env
+.env.local
+.env.*.local
